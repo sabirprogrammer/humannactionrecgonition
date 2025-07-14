@@ -1,18 +1,18 @@
-# Semister Project Report
+# Humman Action Recognition
 
-## Project Title: ** Human Action Detection Using Pose Estimation and Machine Learning**
+## Project Title: ** Humman Action Recognition Using Pose Estimation and Machine Learning**
 
 ---
 
 ## Abstract
 
-SmartPose.AI is a machine learning-powered system that detects human actions in real-time using webcam input. By leveraging pose estimation techniques (MediaPipe) and a Random Forest classifier, the system classifies physical human actions like sitting, standing, clapping, drinking, etc. The frontend is developed using Streamlit, offering a user-friendly web interface. This project aims to provide an offline and real-time human action recognition solution for smart surveillance, health monitoring, and fitness apps.
+Humman Action Recognition is a machine learning-powered system that detects human actions in real-time using webcam input. By leveraging pose estimation techniques (MediaPipe) and a Random Forest classifier, the system classifies physical human actions like sitting, standing, clapping, drinking, etc. The frontend is developed using Streamlit, offering a user-friendly web interface. This project aims to provide an offline and real-time human action recognition solution for smart surveillance, health monitoring, and fitness apps.
 
 ---
 
 ## Introduction
 
-With the rise of intelligent systems, recognizing human actions in real time has become a growing need in multiple fields such as surveillance, physical therapy, and smart home environments. However, many real-time systems rely heavily on high-end GPUs or cloud services. SmartPose.AI offers an alternative: a lightweight, efficient system that runs locally with standard hardware.
+With the rise of intelligent systems, recognizing human actions in real time has become a growing need in multiple fields such as surveillance, physical therapy, and smart home environments. However, many real-time systems rely heavily on high-end GPUs or cloud services. Humman Action Recognition offers an alternative: a lightweight, efficient system that runs locally with standard hardware.
 
 ---
 
@@ -35,10 +35,10 @@ The idea was inspired by the growing use of AI in physical fitness apps and the 
 ## Project Directory Structure
 
 ```
-SmartPose.AI/
+HummanActionRecognition/
 |
 ├── app/                      # Streamlit interface scripts
-├── data/                     # Dataset (images, CSV, JSON)
+├── dataset/                  # Dataset (images, CSV, JSON)
 ├── model/                    # Trained model files
 ├── team/                     # Documentation, bios, profiles
 |
@@ -57,10 +57,51 @@ SmartPose.AI/
 
 ## Deployment Links
 
-* 🚀 **Google Colab:** [Launch SmartPose on Colab](https://colab.research.google.com/drive/your_colab_link_here)
+* 🚀 **Google Colab:** [Launch Humman Action Recognition on Colab](https://colab.research.google.com/drive/your_colab_link_here)
 * 🎥 **Demo Video:** [Watch Demo on YouTube](https://youtu.be/your_video_link_here)
 
 > *(Replace the above URLs with your actual working links)*
+
+---
+
+## Installation
+
+Follow these steps to set up the environment and install all dependencies for Humman Action Recognition:
+
+1. **Clone the repository or download the source code.**
+   ```bash
+   git clone <your-repo-url>
+   cd HummanActionRecognition
+   ```
+
+2. **(Recommended) Create a virtual environment.**
+   ```bash
+   python -m venv venv
+   # Activate the environment:
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install all required Python packages.**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Usage
+
+After installing the dependencies, you can launch the web app with:
+
+```bash
+streamlit run streamlit_ui.py
+```
+
+- The app will open in your default web browser.
+- Make sure your webcam is connected for real-time detection features.
+- For training or data extraction, use the provided scripts in the app/ directory as needed.
 
 ---
 
@@ -86,7 +127,7 @@ SmartPose.AI/
 
 ## Conclusion
 
-SmartPose.AI successfully demonstrates that real-time human action detection is possible using lightweight tools like MediaPipe and Random Forest. Its modular design and web-based GUI make it accessible and extensible for future innovation. The project bridges the gap between theoretical research and practical application.
+Humman Action Recognition successfully demonstrates that real-time human action detection is possible using lightweight tools like MediaPipe and Random Forest. Its modular design and web-based GUI make it accessible and extensible for future innovation. The project bridges the gap between theoretical research and practical application.
 
 ---
 

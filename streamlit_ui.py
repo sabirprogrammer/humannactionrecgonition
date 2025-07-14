@@ -1400,7 +1400,7 @@ st.markdown("""
         <div class="logo-section">
             <div class="logo-icon">🎯</div>
             <div>
-                <div class="logo-text">HAR Pro</div>
+                <div class="logo-text">Humman Action Recognition</div>
                 <div class="logo-subtitle">AI-powered Platform for Real-time Human Action Recognition</div>
             </div>
         </div>
@@ -1456,7 +1456,7 @@ if st.session_state.current_page == 'Dashboard':
     <div class="welcome-message">
         <div class="welcome-icon">👋</div>
         <div class="welcome-content">
-            <div class="welcome-title">Welcome to HAR Pro!</div>
+            <div class="welcome-title">Welcome to Humman Action Recognition!</div>
             <div class="welcome-text">Get started by trying our live detection or uploading an image for analysis. Our AI model can recognize 15 different human actions with 94.7% accuracy.</div>
         </div>
     </div>
@@ -1473,7 +1473,7 @@ if st.session_state.current_page == 'Dashboard':
         <div class="card-header">
             <div class="card-icon">🚀</div>
             <div>
-                <div class="card-title">Welcome to HAR Pro Dashboard</div>
+                <div class="card-title">Welcome to Humman Action Recognition Dashboard</div>
                 <div class="card-subtitle">Advanced Human Action Recognition Platform</div>
             </div>
         </div>
