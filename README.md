@@ -136,5 +136,10 @@ Humman Action Recognition successfully demonstrates that real-time human action 
 * Instructor:Sir Noor Ahmed
 * Institution: BUETK - Department of Computer Science
 * Semester: 3rd Semester (BSCS)
-* Contributors: Sana Ullah
+* Contributors:
+*  Sana Ullah Sabir
+*  Muhammad Awais
+*  Rohil Rrafiq
+*  Hussain Ahmed
+* 
 
