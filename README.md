@@ -1,6 +1,6 @@
 # Humman Action Recognition
 
-## Project Title: ** Humman Action Recognition Using Pose Estimation and Machine Learning**
+## Project Title:  Humman Action Recognition Using Pose Estimation and Machine Learning
 
 ---
 
@@ -57,10 +57,10 @@ HummanActionRecognition/
 
 ## Deployment Links
 
-* 🚀 **Google Colab:** [Launch Humman Action Recognition on Colab](https://colab.research.google.com/drive/your_colab_link_here)
-* 🎥 **Demo Video:** [Watch Demo on YouTube](https://youtu.be/your_video_link_here)
+* Google Colab:
+* Demo Video:
 
-> *(Replace the above URLs with your actual working links)*
+> 
 
 ---
 
@@ -68,13 +68,13 @@ HummanActionRecognition/
 
 Follow these steps to set up the environment and install all dependencies for Humman Action Recognition:
 
-1. **Clone the repository or download the source code.**
+1. Clone the repository or download the source code.
    ```bash
    git clone <your-repo-url>
    cd HummanActionRecognition
    ```
 
-2. **(Recommended) Create a virtual environment.**
+2. (Recommended) Create a virtual environment.
    ```bash
    python -m venv venv
    # Activate the environment:
@@ -133,19 +133,8 @@ Humman Action Recognition successfully demonstrates that real-time human action 
 
 ## Acknowledgements
 
-* Instructor: \[Sir's Name Here]
+* Instructor:Sir Noor Ahmed
 * Institution: BUETK - Department of Computer Science
-* Semester: 6th Semester (BSCS)
+* Semester: 3rd Semester (BSCS)
 * Contributors: Sana Ullah
 
----
-
-## Appendix
-
-* See Lab Work (Lab 1 to Lab 14) for step-by-step modules of the full system.
-* Screenshots and additional images available on request.
-* Source code provided in attached `.zip` file or GitHub link.
-
----
-
-*End of Report*
